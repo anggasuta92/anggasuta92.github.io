@@ -1,69 +1,28 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
-    <title>Welcome!</title>
-    <style>
-        body,
-        html {
-            height: 100%;
-            margin: 0;
-        }
-
-        .bgimg {
-            background-image: url('https://www.w3schools.com/w3images/forestbridge.jpg');
-            height: 100%;
-            background-position: center;
-            background-size: cover;
-            position: relative;
-            color: white;
-            font-family: "Courier New", Courier, monospace;
-            font-size: 25px;
-        }
-
-        .topleft {
-            position: absolute;
-            top: 0;
-            left: 16px;
-        }
-
-        .bottomleft {
-            position: absolute;
-            bottom: 0;
-            left: 16px;
-        }
-
-        .middle {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-        }
-
-        hr {
-            margin: auto;
-            width: 40%;
-        }
-    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AnggaSuta92</title>
+    <link href="assets/bootstrap522/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
-
-    <div class="bgimg">
-        <div class="topleft">
-            <p>Logo</p>
+    <main>
+        <div class="px-4 py-5 my-5 text-center">
+            <h1 class="display-5 fw-bold">Centered hero</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the
+                    world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive
+                    grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
+                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+                </div>
+            </div>
         </div>
-        <div class="middle">
-            <h1>COMING SOON</h1>
-            <hr>
-            <p>{{ --o-- }}</p>
-        </div>
-        <div class="bottomleft">
-            <p>Some text</p>
-        </div>
-    </div>
-
+    </main>
+    <script src="assets/bootstrap522/js/bootstrap.min.js"></script>
 </body>
-
 </html>
