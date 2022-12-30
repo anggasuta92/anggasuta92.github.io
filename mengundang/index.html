@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AnggaSuta92</title>
+    <link href="../assets/bs462/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <main role="main" class="container">
+
+        <div class="starter-template text-center">
+            <h1>Bootstrap starter template</h1>
+            <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text
+                and a mostly barebones HTML document.</p>
+        </div>
+
+    </main><!-- /.container -->
+    <script src="assets/bs462/js/bootstrap.min.js"></script>
+
+    <script>
+        const fs = require('fs');
+        fs.readFile('reservation.txt', (err, inputD) => {
+            if (err) throw err;
+            console.log(inputD.toString());
+        })
+    </script>
+</body>
+
+</html>
